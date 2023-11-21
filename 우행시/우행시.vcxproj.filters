@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\우행시 2학기\우행시 2학기\ImageFading.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\우행시 2학기\우행시 2학기\ImageLayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\우행시 2학기\우행시 2학기\ImageLayerInterface.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLayerImpl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="screen.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="screen2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="stage2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0002.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0003.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0004.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0005.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0006.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0007.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0008.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0009.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0010.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0011.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0012.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0013.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0023.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0024.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0025.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0026.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0027.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0028.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0029.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="transition0030.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="death_P20001.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="death_P20002.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="death_P20003.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="death_P20004.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="death_P20005.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="death_P20006.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="death_P20007.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="death_P20008.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="death_P20009.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="death_P20010.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="button.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dialogueBG_hell.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="benedu.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s1_d.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s1_a1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s1_a2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s1_d1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s1_d2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="success0001.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="success0002.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="success0003.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="success0004.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="success0005.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="success0006.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="success0007.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="success0008.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dialogueDeathExport0001.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dialogueDeathExport0002.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dialogueDeathExport0003.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dialogueDeathExport0004.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dialogueDeathExport0005.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dialogueDeathExport0006.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dialogueDeathExport0007.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dialogueDeathExport0008.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dialogueDeathExport0009.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="dinner_guardian.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s2_d.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s2_a1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s2_a2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s2_d1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s2_d2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s3_a1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s3_a2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s3_d.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s3_d1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="s3_d2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="hakbong.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bgm.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="jab.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="pling.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="keyboard.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="lobby.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="screen_changer_part1_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="screen_changer_part2_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="stone_kick_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="stone_move_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="select_move.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="select_button.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="move_effect.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="enemy_die_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="enemy_kick_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="player_death_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="dialogue_success_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="bad_end_screen_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="..\..\..\Downloads\Helltaker Audio\button_dialogue_confirm_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="..\..\..\Downloads\Helltaker Audio\dialogue_start_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="spikes_damage_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="key_pick_up_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="door_closed_kick_03.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="door_opening_01.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

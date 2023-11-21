@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a33f3139-76c0-4f84-b780-039e38cfce51}</ProjectGuid>
+    <RootNamespace>우행시</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\우행시 2학기\우행시 2학기\ImageFading.h" />
+    <ClInclude Include="..\..\우행시 2학기\우행시 2학기\ImageLayer.h" />
+    <ClInclude Include="..\..\우행시 2학기\우행시 2학기\ImageLayerInterface.h" />
+    <ClInclude Include="ImageLayerImpl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1.bmp" />
+    <Image Include="benedu.bmp" />
+    <Image Include="button.bmp" />
+    <Image Include="death_P20001.bmp" />
+    <Image Include="death_P20002.bmp" />
+    <Image Include="death_P20003.bmp" />
+    <Image Include="death_P20004.bmp" />
+    <Image Include="death_P20005.bmp" />
+    <Image Include="death_P20006.bmp" />
+    <Image Include="death_P20007.bmp" />
+    <Image Include="death_P20008.bmp" />
+    <Image Include="death_P20009.bmp" />
+    <Image Include="death_P20010.bmp" />
+    <Image Include="dialogueBG_hell.bmp" />
+    <Image Include="dialogueDeathExport0001.bmp" />
+    <Image Include="dialogueDeathExport0002.bmp" />
+    <Image Include="dialogueDeathExport0003.bmp" />
+    <Image Include="dialogueDeathExport0004.bmp" />
+    <Image Include="dialogueDeathExport0005.bmp" />
+    <Image Include="dialogueDeathExport0006.bmp" />
+    <Image Include="dialogueDeathExport0007.bmp" />
+    <Image Include="dialogueDeathExport0008.bmp" />
+    <Image Include="dialogueDeathExport0009.bmp" />
+    <Image Include="dinner_guardian.bmp" />
+    <Image Include="hakbong.bmp" />
+    <Image Include="s1_a1.bmp" />
+    <Image Include="s1_a2.bmp" />
+    <Image Include="s1_d.bmp" />
+    <Image Include="s1_d1.bmp" />
+    <Image Include="s1_d2.bmp" />
+    <Image Include="s2_a1.bmp" />
+    <Image Include="s2_a2.bmp" />
+    <Image Include="s2_d.bmp" />
+    <Image Include="s2_d1.bmp" />
+    <Image Include="s2_d2.bmp" />
+    <Image Include="s3_a1.bmp" />
+    <Image Include="s3_a2.bmp" />
+    <Image Include="s3_d.bmp" />
+    <Image Include="s3_d1.bmp" />
+    <Image Include="s3_d2.bmp" />
+    <Image Include="screen.bmp" />
+    <Image Include="screen2.bmp" />
+    <Image Include="stage2.bmp" />
+    <Image Include="success0001.bmp" />
+    <Image Include="success0002.bmp" />
+    <Image Include="success0003.bmp" />
+    <Image Include="success0004.bmp" />
+    <Image Include="success0005.bmp" />
+    <Image Include="success0006.bmp" />
+    <Image Include="success0007.bmp" />
+    <Image Include="success0008.bmp" />
+    <Image Include="transition0002.bmp" />
+    <Image Include="transition0003.bmp" />
+    <Image Include="transition0004.bmp" />
+    <Image Include="transition0005.bmp" />
+    <Image Include="transition0006.bmp" />
+    <Image Include="transition0007.bmp" />
+    <Image Include="transition0008.bmp" />
+    <Image Include="transition0009.bmp" />
+    <Image Include="transition0010.bmp" />
+    <Image Include="transition0011.bmp" />
+    <Image Include="transition0012.bmp" />
+    <Image Include="transition0013.bmp" />
+    <Image Include="transition0023.bmp" />
+    <Image Include="transition0024.bmp" />
+    <Image Include="transition0025.bmp" />
+    <Image Include="transition0026.bmp" />
+    <Image Include="transition0027.bmp" />
+    <Image Include="transition0028.bmp" />
+    <Image Include="transition0029.bmp" />
+    <Image Include="transition0030.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\Downloads\Helltaker Audio\button_dialogue_confirm_01.wav" />
+    <Media Include="..\..\..\Downloads\Helltaker Audio\dialogue_start_01.wav" />
+    <Media Include="bad_end_screen_01.wav" />
+    <Media Include="bgm.wav" />
+    <Media Include="dialogue_success_01.wav" />
+    <Media Include="door_closed_kick_03.wav" />
+    <Media Include="door_opening_01.wav" />
+    <Media Include="enemy_die_01.wav" />
+    <Media Include="enemy_kick_01.wav" />
+    <Media Include="jab.wav" />
+    <Media Include="keyboard.wav" />
+    <Media Include="key_pick_up_01.wav" />
+    <Media Include="lobby.wav" />
+    <Media Include="move_effect.wav" />
+    <Media Include="player_death_01.wav" />
+    <Media Include="pling.wav" />
+    <Media Include="screen_changer_part1_01.wav" />
+    <Media Include="screen_changer_part2_01.wav" />
+    <Media Include="select_button.wav" />
+    <Media Include="select_move.wav" />
+    <Media Include="spikes_damage_01.wav" />
+    <Media Include="stone_kick_01.wav" />
+    <Media Include="stone_move_01.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
